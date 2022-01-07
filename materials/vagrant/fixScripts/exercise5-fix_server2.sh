@@ -1,13 +1,9 @@
 #!/bin/bash
 #add fix to exercise5-server2 here
 
-#------server2———
-#generate ssh key to server2
-ssh-keygen -t rsa -b 4096 -C root@server2
+cd ~/.ssh 
 
-#go to /.ssh/id_rsa.pub and copy the ssh key
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpvgAwT/FNb3/g/QxD6x9xtRTiTzIuJNkbIuq+hQLhq0XpilEnR+iCeJaquDjPQfnSjxvoVHi7EPeAi+vsbFBdAmByMMPouVhwQ22haB83RzA8iuloVKrK4LqaDsRlupzWQuoMoUcsTfQzoxMT3TGSbuvJnYXjYa/GHDmea9ZGxS1u7g9r+zadWzS7QjG40LAj2RnCUoRfgOZ+7nXAHLj4I/DdeibSRGvZTbupMQ/cM9b9qrYoyAPtmfqZLm2/JHm0vWDVsMpIBOuZ0mIGlN7fKL/C2zgYm095PASzvrYWDAnMpOR+q++uJ7uPDiM+4jjISa8TP4GOIvjVohgToAs3aNLV2Ip+fVm4eo3mjWwtXQ3GHDfDrTE98bl2HfQMkUWSf1DBuvt+lNYufYz5M+s46uV9h4v/JY2IBPjotfgFznkO70cntuWhmkMRB/UDUrmEVN5v3nPsl0WEerH0T8qNKJYdyYThOpAieKjTJ59UmDhQQQJs5euz7gGVN8BYATU= root@server1 >> authorized_keys
 
-#------server1———
-#Copy from server2 id_rsa.pub to /.ssh/authorized_keys 
 
 
